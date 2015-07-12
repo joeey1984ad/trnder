@@ -3,7 +3,7 @@
     
     <name>A Game of Two Halves</name>
     <description>Latest from the Last Word on Football</description>
-    <author email="chris@" href="http://www.agameoftwohalves.com">AGOTH Webmaster</author>
+    <author email="chris@" href="http://www.trnder.com">AGOTH Webmaster</author>
 
     <preference name="phonegap-version" value="3.3.0" />
     <feature name="http://api.phonegap.com/1.0/device" />
