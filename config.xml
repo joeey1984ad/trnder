@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.trnder.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     
-    <name>A Game of Two Halves</name>
+    <name>trnder</name>
     <description>Latest from the Last Word on Football</description>
     <author email="chris@" href="http://www.trnder.com">AGOTH Webmaster</author>
 
@@ -13,7 +13,7 @@
     <gap:plugin name="org.apache.cordova.device" />
     <gap:plugin name="org.apache.cordova.camera" />
     <gap:plugin name="org.apache.cordova.media-capture" />
-    <gap:plugin name="org.apache.cordova.file" />
+    <gap:plugin name="org.apache.cordova.file" version="1.3.1"/>
     <gap:plugin name="org.apache.cordova.file-transfer" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.contacts" />
@@ -48,5 +48,5 @@
     <gap:splash src="res/screen/ios/Deafult-568h-2x.png" gap:platform="ios" width="640" height="1136" />
 
     <content src="http://www.trnder.com" />
-    <access origin="*" subdomains="true" />
+    <access origin="trnder.com" subdomains="true" />
 </widget>
