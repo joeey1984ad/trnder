@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cordova Device Ready Example</title>
+
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.6.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to make calls Cordova methods
+    //
+    function onDeviceReady() {
+        // Now safe to use the Cordova API
+    }
+
+    </script>
+  </head>
+  <body onload="onLoad()">
+  <form action="/test.cgi" enctype="multipart/form-data" method="post">
+	<p>
+		Type some text (if you like):<br>
+		<input type="text" name="textline" size="30">
+	</p>
+	<p>
+		Please specify a file, or a set of files:<br>
+		<input type="file" name="datafile" size="40">
+	</p>
+	<div>
+		<input type="submit" value="Send">
+	</div>
+	</form>
+  </body>
+</html>
+
