@@ -50,8 +50,10 @@
 <key>ExternalHosts</key>
 <array>
     <string>www.trnder.com</string>
-    <string>*.gstatic.com</string>
+    <string>*.trnder.com</string>
 </array>
     <content src="http://www.trnder.com" />
+	<access origin="http://trnder.com" />
+
     <access origin="*" subdomains="true" />
 </widget>
