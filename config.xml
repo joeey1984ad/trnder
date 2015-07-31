@@ -48,5 +48,11 @@
     <gap:splash src="res/screen/ios/Deafult-568h-2x.png" gap:platform="ios" width="640" height="1136" />
 
     <content src="http://www.trnder.com" />
+	<access origin="http://www.trnder.com" />
+	<access origin="http://*.trnder.com" />
+	<access origin="http://trnder.com/*" launch-external="yes" />
+	<access origin="http://*" launch-external="yes" />
+<access origin="https://*" launch-external="yes" />
+	<access origin="*" />
     <access origin="*" subdomains="true" />
 </widget>
