@@ -108,7 +108,14 @@
         <source-file src="src/android/mfilechooser/FileArrayAdapter.java" target-dir="src/com/orleonsoft/android/simplefilechooser/adapters" />
         <source-file src="src/android/mfilechooser/FileChooserActivity.java" target-dir="src/com/orleonsoft/android/simplefilechooser/ui" />        
         <source-file src="src/android/mfilechooser/FileInfo.java" target-dir="src/com/orleonsoft/android/simplefilechooser" />
-		<source-file src="src/android/mfilechooser/Utils.java" target-dir="src/com/maginsoft/utils" />
+		<source-file src="src/android/mfilechooser/Utils.java" target-dir="src/        <source-file src="src/android/mfilechooser/res/layout/drawer_list_item.xml" target-dir="res/layout" />
+        <source-file src="src/android/mfilechooser/res/layout/file_row.xml" target-dir="res/layout" />
+        <source-file src="src/android/mfilechooser/res/layout/main.xml" target-dir="res/layout" />
+
+        <source-file src="src/android/mfilechooser/res/values/colors.xml" target-dir="res/values" />	
+        <source-file src="src/android/mfilechooser/res/values/styles.xml" target-dir="res/values" />	
+        <source-file src="src/android/mfilechooser/res/values-v11/styles.xml" target-dir="res/values-v11" />	
+        <source-file src="src/android/mfilechooser/res/values-v14/styles.xml" target-dir="res/values-v14" />		com/maginsoft/utils" />
 		
         <source-file src="src/android/mfilechooser/libs/android-support-v4.jar" target-dir="libs/" />
 	</widget>
